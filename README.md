@@ -18,7 +18,7 @@ We used PySpark for application of this algorithm because of the magnitude of th
 
 By using the FP-Growth method on the class of items level, the frequent item sets are discovered. The top 15 frequent item sets are listed in the first plot. Notice that this frequency list did not consider the amount of goods, it only counted how many transactions contains this kind of items. The most popular item is Vodka, followed by Whiskey, Red Table Wine, and White Table Wine.
 
-![plot 1](https://github.com/ZhenghaoXiao32/Frequent-Pattern-Mining-for-PLCB/blob/master/plots/plot1.png)
+![plot 1](https://github.com/ZhenghaoXiao32/Frequent-Pattern-Mining-for-PLCB/blob/master/plots/plot1.PNG)
 
 The next table shows the association rules derived from the transaction dataset of whole year 2018 with minimum support set to 0.003 and minimum confidence set to 0.7. Lifts of all the association rules are bigger than 1, indicates that there is a positive correlation among the items in the Antecedent and Consequent columns. 
 
@@ -57,7 +57,7 @@ Within all the 28 association rules, Vodka shows up as a consequent in 11 rules,
 
 Aforementioned are results with items descripted by classes, we also wanted to know what the results would be when we apply a more detailed granularity. We combined sub-classes and classes as a more detail tag for the items. Here are the frequent pattern mining results based on this detailed tag: 
 
-![plot 2](https://github.com/ZhenghaoXiao32/Frequent-Pattern-Mining-for-PLCB/blob/master/plots/plot2.png)
+![plot 2](https://github.com/ZhenghaoXiao32/Frequent-Pattern-Mining-for-PLCB/blob/master/plots/plot2.PNG)
 
 For sub-classes, accord with the result of classes, the top 5 most frequent items are still Vodka and Whiskey. In the generated association rules below, all the antecedent has two items and all the consequents are Unflavored Vodka and Whiskey. These results indicate that people who already purchased more than one item in their market basket will tend to purchase Vodka or Whiskey.
 
