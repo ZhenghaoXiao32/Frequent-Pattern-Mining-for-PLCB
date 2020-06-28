@@ -57,7 +57,7 @@ Within all the 28 association rules, Vodka shows up as a consequent in 11 rules,
 
 Aforementioned are results with items descripted by classes, we also wanted to know what the results would be when we apply a more detailed granularity. We combined sub-classes and classes as a more detail tag for the items. Here are the frequent pattern mining results based on this detailed tag: 
 
-![plot 2](https://github.com/ZhenghaoXiao32/Frequent-Pattern-Mining-for-PLCB/blob/master/plots/plot2.PNG)
+![plot 2](https://zhenghaoxiao32.github.io/Frequent-Pattern-Mining-for-PLCB/plots/plot2.PNG)
 
 For sub-classes, accord with the result of classes, the top 5 most frequent items are still Vodka and Whiskey. In the generated association rules below, all the antecedent has two items and all the consequents are Unflavored Vodka and Whiskey. These results indicate that people who already purchased more than one item in their market basket will tend to purchase Vodka or Whiskey.
 
