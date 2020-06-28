@@ -18,7 +18,7 @@ We used PySpark for application of this algorithm because of the magnitude of th
 
 By using the FP-Growth method on the class of items level, the frequent item sets are discovered. The top 15 frequent item sets are listed in the first plot. Notice that this frequency list did not consider the amount of goods, it only counted how many transactions contains this kind of items. The most popular item is Vodka, followed by Whiskey, Red Table Wine, and White Table Wine.
 
-![plot 1](https://github.com/ZhenghaoXiao32/Frequent-Pattern-Mining-for-PLCB/blob/master/plots/plot1.PNG)
+![plot 1](https://zhenghaoxiao32.github.io/Frequent-Pattern-Mining-for-PLCB/plots/plot1.PNG)
 
 The next table shows the association rules derived from the transaction dataset of whole year 2018 with minimum support set to 0.003 and minimum confidence set to 0.7. Lifts of all the association rules are bigger than 1, indicates that there is a positive correlation among the items in the Antecedent and Consequent columns. 
 
